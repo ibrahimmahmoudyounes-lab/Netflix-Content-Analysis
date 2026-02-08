@@ -1,6 +1,6 @@
 # Netflix Content Analysis Dashboard
 
-![Netflix Content Analysis Dashboard](Netflix Content Analysis Image.png)
+![Netflix Content Analysis Dashboard](Netflix%20Content%20Analysis%20Image.png)
 
 ## Project Overview
 This project analyzes Netflix’s content catalog to understand content distribution, ratings patterns, and platform growth over time.
@@ -45,6 +45,6 @@ The dataset was prepared using SQL through the following steps:
 This project delivers a structured and interactive analysis of Netflix content, demonstrating the ability to clean data, perform exploratory analysis, and present insights through effective data visualization.
 
 ## Author
-Developed by Ibrahim Younis
+Ibrahim Younis
 
 
