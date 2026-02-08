@@ -1,39 +1,46 @@
-# Netflix Content Analysis
-Netflix Content Analysis Dashboard
- Dashboard Preview
-![Netflix Dashboard](Netflix Content Analysis Image.PNG)
+# Netflix Content Analysis Dashboard
 
-Project Overview
-This project features a comprehensive Netflix Content Analysis dashboard built with Power BI. It explores over 8,800 titles to provide strategic insights into content distribution, audience demographics, and historical trends.
+![Netflix Content Analysis Image](Netflix Content Analysis Image)
 
-Key Performance Indicators (KPIs)
-Total Movies: 6,131 (69.62% of total content)
+## Project Overview
+This project explores Netflix's content catalog to understand content distribution, ratings patterns, and platform growth over time.
 
-Total TV Shows: 2,676 (30.38% of total content)
+Using SQL for data preparation and Power BI for visualization, the project transforms raw data into an interactive dashboard that allows users to analyze Movies and TV Shows across different countries and years.
 
-Maximum Duration: 312 Minutes for Movies
+## Project Objective
+The objective of this project is to extract meaningful insights from Netflix content data and present them through a clear and interactive dashboard suitable for business understanding and decision-making.
 
-Maximum Seasons: 17 Seasons for TV Shows
+## Dashboard Features
+The dashboard provides insights into:
 
-Business Insights
-Content Strategy: The library is heavily weighted toward Movies, comprising nearly 70% of the total catalog.
+- Total number of Movies and TV Shows
+- Distribution of content ratings
+- Comparison between Movies and TV Shows
+- Maximum movie duration and TV show seasons
+- Global distribution of Netflix content
+- Content growth trends over the years
 
-Audience Targeting: The top maturity ratings are TV-MA and TV-14, showing Netflix's focus on mature and young adult audiences.
+Interactive filters allow users to explore data by year, rating, and content type.
 
-Growth Peak: A significant upward trend in content additions began in 2015, reaching its peak around 2019-2020.
+## Tools Used
+- SQL for data cleaning and preparation
+- Power BI for dashboard design and visualization
 
-Geographic Reach: Significant content density is observed across North America and India.
+## Data Preparation Steps
+- Removed duplicate records
+- Cleaned inconsistent or missing values
+- Standardized columns for analysis
+- Prepared dataset for visualization
 
-Technical Stack
-Power BI: Data visualization and interactive dashboard creation.
+## Key Insights
+- Movies represent the larger share of Netflix content.
+- Content additions increased significantly in recent years.
+- Content production is concentrated in specific countries.
+- Rating categories vary depending on content type.
 
-SQL: Data cleaning and transformation process (see Netflix_Queries.sql).
+## Project Outcome
+This project demonstrates practical skills in data cleaning, exploratory analysis, and dashboard storytelling as part of a data analyst portfolio.
 
-UI Design: Custom Netflix-themed dark mode for enhanced user experience.
+## Author
+Data analysis portfolio project developed during my learning journey.
 
-Project Files
-Netflix_Content_Analysis.pbix: The full Power BI project file.
-
-Netflix_Queries.sql: SQL scripts for data preparation.
-
-Netflix Content Analysis Image.PNG: Dashboard preview image.
